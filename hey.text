@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travell| Exciting tours for adventourous folks</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__logo-box">
-      <img src="../travello/img/logo.svg" alt="Logo" class="header__logo">
-    </div>
-
-
-    <div class="header__text-box">
-      <h1 class="heading-primary">
-        <span class="heading-primary--main">outdoors</span>
-        <span class="heading-primary--sub">is where life happens</span>
-      </h1>
-
-      <a href="#" class="btn btn--white btn--animated">discover our tours</a>
-    </div>
-  </header>
-
-  <main>
-    <section class="section-about">
-
+  <section class="section-about">
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">
           Exciting tours for adventurous people
@@ -42,19 +9,16 @@
         <div class="col-1-of-2">
           <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
           <p class="paragraph">Lorem Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing. dolor Lorem ipsum dolor sit amet. sit amet consectetur adipisicing. ipsum dolor, Lorem, ipsum.? Lorem ipsum dolor sit amet.</p>
-
           <h3 class="heading-tertiary u-margin-bottom-small">Live advetures like you never had before</h3>
           <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque voluptatum odit,a iusto? Ea, voluptatibus aspernatur. Libero, voluptatum?</p>
 
           <a href="#" class="btn-text">learn more &rarr;</a>
-
         </div>
-
-        <div class="col-1-of-2">
+        <div class="col-2-of-2">
           <div class="composition">
             <img src="img/light-1.png" alt="Photo 1" class="composition__photo composition__photo--p1">
-            <img src="img/light-2.png" alt="Photo 2" class="composition__photo composition__photo--p2">
-            <img src="img/light-3.png" alt="Photo 3" class="composition__photo composition__photo--p3">
+            <img src="img/light-2.png" alt="Photo 2" class="composition__photo composition__photo--p1">
+            <img src="img/light-3.png" alt="Photo 3" class="composition__photo composition__photo--p1">
           </div>
         </div>
       </div>
@@ -70,8 +34,9 @@
             <h3 class="heading-tertiary u-margin-bottom-small">explore the world</h3>
             <p class="feature-box__text">Lorem </p>
           </div>
+
         </div>
-        <div class="col-1-of-4">
+        <div class="col-2-of-4">
           <div class="feature-box">
             <i class="feature_box__icon  ">
               <!--add world icon here -->
@@ -79,8 +44,9 @@
             <h3 class="heading-tertiary u-margin-bottom-small">explore the world</h3>
             <p class="feature-box__text">Lorem </p>
           </div>
+
         </div>
-        <div class="col-1-of-4">
+        <div class="col-3-of-4">
           <div class="feature-box">
             <i class="feature_box__icon  ">
               <!--add world icon here -->
@@ -88,15 +54,17 @@
             <h3 class="heading-tertiary u-margin-bottom-small">explore the world</h3>
             <p class="feature-box__text">Lorem </p>
           </div>
+
         </div>
-        <div class="col-1-of-4">
+        <div class="col-4-of-4">
           <div class="feature-box">
             <i class="feature_box__icon  ">
-              <!--add world icon here -->
+
             </i>▐
             <h3 class="heading-tertiary u-margin-bottom-small">explore the world</h3>
             <p class="feature-box__text">Lorem </p>
           </div>
+
         </div>
 
       </div>
@@ -106,7 +74,6 @@
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">most popular tours</h2>
       </div>
-
       <div class="row">
         <div class="col-1-of-3">
           <div class="card">
@@ -118,49 +85,7 @@
             </div>
           </div>
         </div>
-        <div class="col-1-of-3">Col 1 of 3</div>
-        <div class="col-1-of-3">Col 1 of 3</div>
+        <div class="col-2-of-3">there</div>
+        <div class="col-3-of-3">you</div>
       </div>
     </section>
-  </main>
-
-</body>
-
-</html>
-
-
-<!-- <div class="row">
-      <div class="col-1-of-2">Col 1 of 2</div>
-      <div class="col-1-of-2">Col 1 of 2</div>
-    </div>
-
-    <div class="row">
-      <div class="col-1-of-3">Col 1 of 3</div>
-      <div class="col-1-of-3">Col 1 of 3</div>
-      <div class="col-1-of-3">Col 1 of 3</div>
-    </div>
-
-    <div class="row">
-      <div class="col-1-of-3">Col 1 of 3</div>
-      <div class="col-2-of-3">Col 2 of 3</div>
-    </div>
-
-    <div class="row">
-      <div class="col-1-of-4">Col 1 of 4 </div>
-      <div class="col-1-of-4">Col 1 of 4</div>
-      <div class="col-1-of-4">Col 1 of 4</div>
-      <div class="col-1-of-4">Col 1 of 4</div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-1-of-4">Col 1 of 4</div>
-      <div class="col-1-of-4">Col 1 of 4</div>
-      <div class="col-2-of-4">Col 2 of 4</div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-1-of-4">Col 1 of 4</div>
-      <div class="col-3-of-4">Col 3 of 4</div>
-    </div> -->
