@@ -2,7 +2,7 @@
   &:link,
   &:visited {
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 10rem;
@@ -46,6 +46,14 @@
   &--white {
     background-color: $color-white;
     color: $color-grey-dark;
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
 
     &::after {
       background-color: $color-white;
