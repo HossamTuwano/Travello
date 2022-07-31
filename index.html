@@ -13,6 +13,23 @@
 </head>
 
 <body>
+
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+    <div class="navigation__background">&nbsp;</div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#" class="navigation__link"> <span>01</span> About Natours</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"> <span>02</span> Your Benefits</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"> <span>03</span> Popular tours</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"> <span>04</span> Stories</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"> <span>05</span> Book now</a></li>
+      </ul>
+    </nav>
+  </div>
   <header class="header">
     <div class="header__logo-box">
       <img src="../travello/img/logo.svg" alt="Logo" class="header__logo">
@@ -25,7 +42,7 @@
         <span class="heading-primary--sub">is where life happens</span>
       </h1>
 
-      <a href="#" class="btn btn--white btn--animated">discover our tours</a>
+      <a href="#section-tours" class="btn btn--white btn--animated">discover our tours</a>
     </div>
   </header>
 
@@ -102,7 +119,7 @@
       </div>
     </section>
 
-    <section class="section-tours">
+    <section class="section-tours" id="section-tours">
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">most popular tours</h2>
       </div>
@@ -133,7 +150,7 @@
                 <div class="card__price-box">
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">$243.99</p>
-                  <a href="#" class="btn btn--white">Book now</a>
+                  <a href="#popup" class="btn btn--white">Book now</a>
                 </div>
               </div>
             </div>
@@ -164,7 +181,7 @@
                 <div class="card__price-box">
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">$443.99</p>
-                  <a href="#" class="btn btn--white">Book now</a>
+                  <a href="#popup" class="btn btn--white">Book now</a>
                 </div>
               </div>
             </div>
@@ -195,7 +212,7 @@
                 <div class="card__price-box">
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">843.99</p>
-                  <a href="#" class="btn btn--white">Book now</a>
+                  <a href="#popup" class="btn btn--white">Book now</a>
                 </div>
               </div>
             </div>
@@ -322,6 +339,24 @@
       </div>
     </div>
   </footer>
+
+  <div class="popup" id="popup">
+    <div class="popup__content">
+      <div class="popup__left">
+        <img src="img/backimg.jpg" alt="Tour Photo" class="popup__img">
+        <img src="img/backimg.jpg" alt="Tour Photo" class="popup__img">
+      </div>
+      <div class="popup__right">
+        <a href="#section-tours" class="popup__close">&times;</a>
+        <h2 class="heading-secodnary u-margin-bottom-small">Start booking now</h2>
+        <h3 class="heading-tertiary u-margin-bottom-small">important &ndash; Please read these term before booking</h3>
+        <p class="popup__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, accusamus!
+        </p>
+        <a href="#" class="btn btn--green">Book now</a>
+      </div>
+    </div>
+  </div>
 
 </body>
 
